@@ -1,6 +1,8 @@
 import React from 'react'
 import { HERO_CONTENT } from '../../constants'
 import ProfilePic from '../assets/ProfilePic.jpg'
+import AboutMe from '../assets/AboutMe.jpg'
+
 import { motion } from "framer-motion"
 
 const container = (delay) => ({
@@ -39,7 +41,7 @@ const Hero = () => {
                     initial={{x:100 , opacity:0}}
                     animate={{x:0, opacity:1}}
                     transition={{duration:1, delay:1.2}}
-                    className='rounded' src={ProfilePic} alt="" /></div></div>
+                    className='rounded h-[350px] w-[250px] object-cover' src={AboutMe} alt="" /></div></div>
         </div>
     </div>
   )
