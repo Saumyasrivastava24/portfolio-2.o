@@ -1,7 +1,7 @@
 import React from 'react'
 import { RiReactjsLine } from "react-icons/ri"
 import { FaNodeJs, FaGitAlt, FaGithub } from "react-icons/fa"
-import { SiMongodb, SiHtml5, SiCss3, SiJavascript, SiRust, SiElectron } from "react-icons/si"
+import { SiMongodb, SiHtml5, SiCss3, SiJavascript, SiRust, SiElectron, SiNextdotjs, SiPython } from "react-icons/si"
 import { motion } from "framer-motion"
 
 const iconVariants = (duration) => ({
@@ -90,6 +90,20 @@ const Skills = () => {
           animate='animate'
           className='rounded-2xl border-4 border-neutral-800 p-4'>
           <SiElectron className='text-7xl text-blue-400' />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(4.5)}
+          initial='initial'
+          animate='animate'
+          className='rounded-2xl border-4 border-neutral-800 p-4'>
+          <SiNextdotjs className='text-7xl text-blue-400' />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(3.5)}
+          initial='initial'
+          animate='animate'
+          className='rounded-2xl border-4 border-neutral-800 p-4'>
+          <SiPython className='text-7xl text-blue-300' />
         </motion.div>
       </div>
     </div>
